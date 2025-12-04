@@ -13,19 +13,24 @@ public class student {
 
     }
 
-    student(String)
+    student(String name,int age ){
+        this.name=name;
+        this.age=age;
+
+    }
 
     public static void main(String[] args) {
 
-        student s1= new student();
+        student s1 = new student();
+        s1.studentDetails();
+        student s2 = new student("Ayush", 12);
+        s2.studentDetails();
 
-        student s2= new student("Ayush")
-
-
+    }
 
         void studentDetails()
         {
-            System.out.printf("");
+            System.out.println("name "+name +" age "+age);
         }
     }
-}
+
