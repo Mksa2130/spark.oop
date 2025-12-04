@@ -1,4 +1,4 @@
-package oop;
+package oop.objectcreation;
 
 public class course {
     String name;

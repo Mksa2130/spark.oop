@@ -1,4 +1,4 @@
-package oop;
+package oop.objectcreation;
 
 public class student {
 
@@ -10,7 +10,7 @@ public class student {
 
     student()
     {
-
+      this ("unknown" ,11);
     }
 
     student(String name,int age ){
@@ -31,6 +31,11 @@ public class student {
         void studentDetails()
         {
             System.out.println("name "+name +" age "+age);
+            hello(this);
+        }
+        void hello(student s)
+        {
+            System.out.println("hello "+name);
         }
     }
 
