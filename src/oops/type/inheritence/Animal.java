@@ -1,14 +1,11 @@
 package oops.type.inheritence;
-    class species
-    {
 
+      class species {
+
+        void fly() {
+            System.out.println("flying.....");
+        }
     }
-
-    void fly()
-    {
-        System.out.println("flying.....");
-    }
-
 
 
 
@@ -26,6 +23,10 @@ public class Animal extends species{
         System.out.println("Making sound trrrrrrr.......");
     }
 
+    @Override
+    void fly() {
+        System.out.println("Not supported");
+    }
 }
 
 

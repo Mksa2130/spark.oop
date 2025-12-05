@@ -6,9 +6,11 @@ public class testinheritance {
         Animal animal=new Animal();
         animal.eat();
         animal.sound();
+        animal.fly();
 
         dog dog=new dog();
         dog.eat();
         dog.sound();
+        dog.fly();
     }
 }
