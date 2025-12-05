@@ -1,4 +1,6 @@
-package oops.encapsulation;
+package oops.type;
 
 public class Atm {
+
+
 }
