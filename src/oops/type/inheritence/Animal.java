@@ -11,6 +11,10 @@ package oops.type.inheritence;
 
 public class Animal extends species{
 
+    public static void main(String[] args) {
+
+    }
+
 
     void eat()
     {
