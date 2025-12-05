@@ -1,4 +1,14 @@
 package oops.type.inheritence;
 
 public class testinheritance {
+    public static void main(String[] args) {
+
+        Animal animal=new Animal();
+        animal.eat();
+        animal.sound();
+
+        dog dog=new dog();
+        dog.eat();
+        dog.sound();
+    }
 }
