@@ -1,6 +1,4 @@
 package oops.type.inheritence;
 
-public class inher {
-
-
+public class testinheritance {
 }
