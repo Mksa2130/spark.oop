@@ -12,5 +12,8 @@ public class testinheritance {
         dog.eat();
         dog.sound();
         dog.fly();
+
+        Animal a= new dog();
+        a.sound();
     }
 }

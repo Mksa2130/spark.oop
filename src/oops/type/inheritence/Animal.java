@@ -1,6 +1,6 @@
 package oops.type.inheritence;
 
-      class species {
+ class species {
 
         void fly() {
             System.out.println("flying.....");
@@ -9,7 +9,7 @@ package oops.type.inheritence;
 
 
 
-public class Animal extends species{
+ public class Animal extends species{
 
     public static void main(String[] args) {
 
@@ -37,6 +37,7 @@ public class Animal extends species{
 class dog extends Animal{
 
     @Override
+
     void sound() {
         System.out.println("Bark......");
     }

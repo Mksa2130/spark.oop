@@ -1,6 +1,9 @@
 package oops.type.polymorphism;
 
 public class calculator {
+    static void main() {
+
+    }
 
     int add(int a, int b)
     {
