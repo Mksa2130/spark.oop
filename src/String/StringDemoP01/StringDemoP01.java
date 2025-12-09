@@ -5,7 +5,7 @@ public class StringDemoP01 {
         String s1= new String("Mrityunjay");
         String s2 ="Mrityunjay";
         String s3="Mrityunjay";
-//        String s4=new String("Mrityunjay")
+        String s4=new String("Mrityunjay");
         System.out.println(s1.hashCode());
         System.out.println(s2.hashCode());
         System.out.println(s3.hashCode());
