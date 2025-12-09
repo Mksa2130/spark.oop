@@ -1,4 +1,4 @@
-package String.StringDemoP01;
+package String.String;
 
 public class StringDemoP01 {
     public static void main(String[] args) {
