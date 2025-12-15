@@ -1,6 +1,6 @@
 package Exception_Handling;
 
-public class TestException {
+public class TestException1 {
     public static void main(String[] args) {
 
         System.out.println("hello Ayush");
