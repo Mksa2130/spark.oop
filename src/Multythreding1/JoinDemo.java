@@ -1,5 +1,6 @@
-package Multythreding;
+package Multythreding1;
 class Jointhread extends Thread{
+
     @Override
     public void run() {
 
@@ -11,6 +12,7 @@ class Jointhread extends Thread{
 
 
 public class JoinDemo {
+
     static void main(String[] args) throws InterruptedException {
         Jointhread t1 = new Jointhread();
         t1.start();

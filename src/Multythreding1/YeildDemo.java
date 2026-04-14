@@ -1,4 +1,4 @@
-package Multythreding;
+package Multythreding1;
 class YeildThread extends Thread{
     @Override
     public void run() {

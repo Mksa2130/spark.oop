@@ -1,4 +1,4 @@
-package Multythreding;
+package Multythreding1;
 class Mythread extends Thread
 {
     @Override

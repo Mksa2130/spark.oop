@@ -1,4 +1,4 @@
-package Multythreding;
+package Multythreding1;
 class SleepThread extends Thread{
     @Override
     public void run() {

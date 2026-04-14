@@ -1,4 +1,4 @@
-package Multythreding;
+package Multythreding1;
 
 public class MainTheardDemo {
     public static void main(String[] args) {

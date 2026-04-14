@@ -1,4 +1,4 @@
-package Multythreding;
+package Multythreding1;
 
 class mythread1 extends Thread{
     @Override
@@ -16,15 +16,14 @@ public class ThreadClass {
     //getName()
     //setName()
     //setPriority()
-
-    static void main(String[] args) {
+    public void main(String[] args) {
         System.out.println(Thread.currentThread().getName());
         Thread t =Thread.currentThread();
-       t.setName("mera thread");
+       t.setName("Mera thread");
         System.out.println(Thread.currentThread().getName());
 
         mythread1 t1= new mythread1();
-        t1.setName("child-thread");
+        t1.setName("Child-thread");
         t1.start();
     }
 }
