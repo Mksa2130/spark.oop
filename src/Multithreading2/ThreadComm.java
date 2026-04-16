@@ -25,6 +25,7 @@ public class ThreadComm {
 
                 }
                 System.out.println("child thread giving notification....");
+                this.notify();
             }
         }
     }
