@@ -1,15 +1,20 @@
 package oops.type.abstractDemoInterfaceMultithreading;
 
-public class Vehicle {
-    String Brand;
+public abstract class Vehicle {
+    String brand;
 
     Vehicle(String brand){
-        this.Brand=brand;
+        this.brand=brand;
     }
 
-    void start() {
+   abstract void start();
 
+
+    public void m1(){
+        System.out.println("Hello m1");
     }
+
+
 
 
 }

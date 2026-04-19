@@ -2,7 +2,7 @@ package oops.type.abstractDemoInterfaceMultithreading;
 
 public class Thar extends Vehicle{
     Thar(String brand){
-        super(brand);
+        super(brand);//parent class constructor
 
     }
 
@@ -12,7 +12,7 @@ public class Thar extends Vehicle{
     }
 
 
-    static void main(String[] args) {
+   public static void main(String[] args) {
 
     }
 }
